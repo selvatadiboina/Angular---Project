@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   
+
+  .navbar {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 10px; /* Padding around navbar */
+  }
+   
+  .navbar ul {
+    list-style-type: none; /* Remove default list styles */
+  }
+   
+  .navbar ul li {
+    display: inline; /* Display list items inline */
+    margin-right: 20px; /* Add space between list items */
+  }
+   
+  .navbar ul li a {
+    text-decoration: none; /* Remove default underline from links */
+    color: #fff; /* Text color */
+  }
+   
+  .navbar ul li a:hover {
+    color: #ccc; /* Change text color on hover */
+  }
